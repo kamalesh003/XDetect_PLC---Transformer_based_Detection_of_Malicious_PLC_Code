@@ -59,7 +59,7 @@ Each `.xml` file is converted to a string using `xmltodict`. For each legitimate
 
 ## ✅ How to Run
 
-1. Clone the repo and install dependencies:
+Clone the repo and install dependencies:
 
    ```bash
    !git clone https://github.com/UniboSecurityResearch/PLC-LD-dataset
