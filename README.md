@@ -86,7 +86,11 @@ Each `.xml` file is converted to a string using `xmltodict`. For each legitimate
 
 <img width="1053" height="98" alt="Screenshot 2025-08-06 171825" src="https://github.com/user-attachments/assets/6fe8ab2d-f87a-4780-aaa2-f27898d37f63" />
 <img width="655" height="110" alt="Screenshot 2025-08-06 174218" src="https://github.com/user-attachments/assets/6ed821c6-74f6-4a6d-a13e-235181e803b6" />
+
+
 0-legitimate
+
+
 1-malicious
 
 
