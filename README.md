@@ -114,7 +114,7 @@ Each `.xml` file is converted to a string using `xmltodict`. For each legitimate
 1. Clone the repo and install dependencies:
 
    ```bash
-   git clone https://github.com/UniboSecurityResearch/PLC-LD-dataset
-   pip install transformers datasets accelerate torch xmltodict evaluate peft optuna wandb scikit-learn
+   !git clone https://github.com/UniboSecurityResearch/PLC-LD-dataset
+   !pip install transformers datasets accelerate torch xmltodict evaluate peft optuna wandb scikit-learn
    ```
 
