@@ -53,9 +53,18 @@ epochs: 100
 * Clones the dataset from GitHub
 * Installs required packages like `transformers`, `datasets`, `optuna`, `wandb`, etc.
 
-### 3. **Data Loading**
+### 3. **Data Loading and install dependencies**
 
 Each `.xml` file is converted to a string using `xmltodict`. For each legitimate file, a corresponding malicious file (with the same name prefix) is loaded to form a **binary classification dataset**.
+
+## ✅ How to Run
+
+1. Clone the repo and install dependencies:
+
+   ```bash
+   !git clone https://github.com/UniboSecurityResearch/PLC-LD-dataset
+   !pip install transformers datasets accelerate torch xmltodict evaluate peft optuna wandb scikit-learn
+   ```
 
 ### 4. **Preprocessing**
 
@@ -109,19 +118,7 @@ Each `.xml` file is converted to a string using `xmltodict`. For each legitimate
 
 ---
 
-## 📦 Output
 
-* Fine-tuned model saved to: `model_output/`
-* Zip of model for download: `model_output.zip`
 
----
 
-## ✅ How to Run
-
-1. Clone the repo and install dependencies:
-
-   ```bash
-   !git clone https://github.com/UniboSecurityResearch/PLC-LD-dataset
-   !pip install transformers datasets accelerate torch xmltodict evaluate peft optuna wandb scikit-learn
-   ```
 
